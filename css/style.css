@@ -120,7 +120,6 @@ nav ul li .submenu li a{
 }
 /* sub menu end */
 /* header -area end */
-.hero-area{}
 .hero-bg{
       background:rgba(0, 0, 0, 0.5) url(../img/hero-bg.jpg) no-repeat center center;
       background-size:cover;
@@ -143,9 +142,7 @@ nav ul li .submenu li a{
       background:#fff;
       color: #cc8426;
 }
-.sub-title{
 
-}
 .sub-title h2 {
 	font-size: 2rem;
 	color: #fff;
@@ -173,23 +170,20 @@ nav ul li .submenu li a{
 	background: #fff;
 	padding: 1.8rem 1.2rem;
 	box-sizing: border-box;
-	transition: all 0.4s;
+	transition: all .5s;
 }
+
 .card:hover .card-logo a img {
-    transform:rotate(360deg)  
+    transform:rotateY(360deg)  
 }
 .card:hover{
       background: rgba(30, 29, 29, 0.062);
 }
-.card-logo{}
-.card-logo a{}
 .card-logo a img{
       display:inline-block;
-      transition: all 0.3s;
+      transition: all 0.5s;
 }
-.card-content{}
-.card-content h3{}
-.card-content p{}
+
 .card:hover .card-content button{
       background:#fff;
       color:#cc8426;
@@ -212,7 +206,6 @@ nav ul li .submenu li a{
       justify-content:space-around;
       padding:6rem 0;
 }
-.about-content{}
 summary{
       cursor:pointer;
 }
@@ -246,7 +239,7 @@ aside video{
 	width: 40%;
 	margin-left: 15%;
 	box-sizing: border-box;
-	padding-bottom: 3rem;
+	padding-bottom:3rem;
 }
 .form-area h3{
       font-size:2.3rem;
@@ -283,7 +276,6 @@ footer{
       padding: .7rem 0;
 }
 
-.footer-content{}
 .footer-content p{
       color: #fff;
 }
@@ -291,10 +283,11 @@ footer{
       display: inline-block;
       margin-left: 1.5rem;
 }
-.footer-logo ul li a{
-}
 .footer-logo ul li a i{
       color:var(--footer-color);
       font-size: .8rem;
+}
+.footer-logo ul li a::after{
+      opacity:0;
 }
 /* footer area end */
