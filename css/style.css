@@ -4,7 +4,6 @@
       --footer-color:#dddddd;
       --main-bg:#f8f8f8;
 }
-
 main{
       background:var(--main-bg);
 }
@@ -24,6 +23,9 @@ p,summary {
 	color: #fff;
 	padding: .7rem 2rem;
       cursor:pointer;
+}
+.active{
+      color: #cc8426;
 }
 /* header -area start */
 header{
@@ -170,7 +172,7 @@ nav ul li .submenu li a{
 	background: #fff;
 	padding: 1.8rem 1.2rem;
 	box-sizing: border-box;
-	transition: all .5s;
+	transition: all .4s;
 }
 
 .card:hover .card-logo a img {
@@ -181,7 +183,7 @@ nav ul li .submenu li a{
 }
 .card-logo a img{
       display:inline-block;
-      transition: all 0.5s;
+      transition: all .4s;
 }
 
 .card:hover .card-content button{
@@ -215,11 +217,8 @@ summary{
 .about-content h3 span{
       color:#c69453;
 }
-.about-section{}
 aside{
 width: 40%;
-}
-aside video{
 }
 .about-content button{
       background:#000;
@@ -278,14 +277,15 @@ footer{
 
 .footer-content p{
       color: #fff;
+      padding-top:5px;
 }
 .footer-logo ul li{
       display: inline-block;
-      margin-left: 1.5rem;
+      margin-left: 1.2rem;
 }
 .footer-logo ul li a i{
       color:var(--footer-color);
-      font-size: .8rem;
+      font-size: 1.2rem;
 }
 .footer-logo ul li a::after{
       opacity:0;
